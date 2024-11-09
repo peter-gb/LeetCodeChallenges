@@ -10,7 +10,6 @@ with ranking as (
         order by salary desc
         ) as rank
     from employee
-    
 )
 select 
      d.name as Department
