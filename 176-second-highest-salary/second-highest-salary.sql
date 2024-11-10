@@ -24,5 +24,5 @@ on r.rank = s.nullrank
 where nullrank = 2
  )
 
--- deal with having an empty table in the original table... getting annoying now!
+-- deal with having an empty table in the original table
  select max(SecondHighestSalary) as SecondHighestSalary from final
